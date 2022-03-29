@@ -242,9 +242,11 @@ const watermarkOptions: DropdownOption[] = [
 ];
 
 const imageOptions: DropdownOption[] = [
+    { text: 'Fruitcake Logo', value: 'https://raw.githubusercontent.com/barryvdh/banners/master/public/logo/fc_rgb_logo_light.svg' },
+    { text: 'Fruitcake Logo + Slogan ', value: 'https://raw.githubusercontent.com/barryvdh/banners/master/public/logo/fc_rgb_logo_slogan_light.svg' },
+    { text: 'Fruitcake Mark ', value: 'https://raw.githubusercontent.com/barryvdh/banners/master/public/logo/fc_rgb_mark_light.svg' },
     { text: 'Laravel Logo', value: 'https://laravel.com/img/logomark.min.svg' }, 
-    { text: 'Beyond Code Logo', value: 'https://beyondco.de/img/logo.svg' }, 
-    { text: 'PHP Logo', value: 'https://www.php.net/images/logos/new-php-logo.svg' }, 
+    { text: 'PHP Logo', value: 'https://www.php.net/images/logos/new-php-logo.svg' },
     { text: 'Alternative PHP Logo', value: 'https://www.php.net/images/logos/php-logo.svg' }, 
     { text: 'academic-cap', value: 'academic-cap' },
     { text: 'adjustments', value: 'adjustments' },
