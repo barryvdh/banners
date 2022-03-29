@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/**": {
-      "memory": 1000
+      "memory": 1024
     }
   },
   "rewrites": [
