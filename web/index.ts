@@ -549,7 +549,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
         md = true,
         text = 'Fruitcake',
         packageManager = packageManagerOptions[0].value,
-        packageName = 'vendor/my-awesome-package',
+        packageName = '',
         images = [imageOptions[0].value],
         widths=[],
         heights=[],
