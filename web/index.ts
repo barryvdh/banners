@@ -113,11 +113,11 @@ const Toast = ({ show, message }: ToastProps) => {
 }
 
 const packageManagerOptions: DropdownOption[] = [
+    {text: 'No Package Manager', value: ''},
     {text: 'PHP/Composer', value: 'composer require'},
     {text: 'Node/NPM', value: 'npm install'},
     {text: 'Node/Yarn', value: 'yarn add'},
     {text: 'Python/pip', value: 'pip install'},
-    {text: 'No Package Manager', value: ''},
 ];
 
 const themeOptions: DropdownOption[] = [
@@ -545,9 +545,9 @@ const App = (_: any, state: AppState, setState: SetState) => {
     const {
         fileType = 'png',
         fontSize = '100px',
-        theme = 'light',
+        theme = 'dark',
         md = true,
-        text = 'My Package',
+        text = 'Fruitcake',
         packageManager = packageManagerOptions[0].value,
         packageName = 'vendor/my-awesome-package',
         images = [imageOptions[0].value],
@@ -556,7 +556,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
         showWatermark = true,
         style = 'style_1',
         pattern = 'architect',
-        description = 'This is why it\'s awesome',
+        description = 'Your #1 dev team',
         showToast = false,
         messageToast = '',
         loading = true,
